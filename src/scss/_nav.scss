@@ -1,0 +1,26 @@
+#nav{
+    overflow-y: scroll !important;
+    background-color: $app-sub-color;
+    height: 100vh;
+    width: 100%;
+
+    float: left;
+
+    ul {
+        list-style-type: none;
+        text-align: left;
+    }
+}
+
+#rangeSlider{
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.selectMod{
+    display:flex ;
+}
+
+#editor{
+    margin-bottom: 60px;
+}

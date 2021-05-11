@@ -1,0 +1,41 @@
+@import 'variables';
+@import 'nav';
+@import 'canvas';
+@import 'responsive';
+
+.App{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.bg-head{
+    background-color: $app-main-color;
+}
+
+.w-100{
+    width: 100% !important;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px $app-sub-color; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: $app-main-color; 
+    border-radius: 10px;
+    transition: 0.5s;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3d8d59;
+    transition: 0.5s;
+  }

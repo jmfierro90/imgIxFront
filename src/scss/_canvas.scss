@@ -1,0 +1,13 @@
+.opt-panel{
+    background-color: $app-sub-color;
+    width: 95% !important;
+}
+
+#canvas{
+    min-height: 500px !important;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:5vh
+}
